@@ -29,8 +29,12 @@ function setup(){
 }
 
 function draw(){
+   
     background(0);
     Engine.update(engine);
+     fill("white");
+    textSize(25);
+    text("press up arrow key to move the ball", 50, 50);
     
     
     ground.display();
